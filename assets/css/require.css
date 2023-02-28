@@ -449,6 +449,14 @@ body.loaded { overflow: visible; }
 
   .section-title { margin-block-end: 40px; }
 
+  .contact-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 3rem ;
+  }
+
 
 
   /**
@@ -565,5 +573,21 @@ body.loaded { overflow: visible; }
     width: 100%;
     margin-inline: auto;
   }
+  
 
+}
+
+@media (max-width:50rem) {
+  .contact-container{
+    
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .contact-container a{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+  }
 }
