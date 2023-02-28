@@ -100,6 +100,12 @@
   margin-inline: auto;
 }
 
+.hero-content{
+  margin-left: 10rem;
+}
+
+
+
 
 
 
@@ -299,8 +305,15 @@
 
   .cta .container { justify-content: space-between; }
 
+  
 }
 
+
+@media (max-width:50rem) {
+  .hero-content{
+    margin-left: 0;
+  }
+}
 
 
 

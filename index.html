@@ -1,527 +1,562 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
+    <!-- 
     - primary meta tags
   -->
-  <title>Annie - Web Developer Based on Los Angeles</title>
-  <meta name="title" content="Annie - Web Developer Based on Los Angeles">
-  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+    <title>iMVisual Media - Web Design Agency Based on New York</title>
+    <meta
+      name="title"
+      content="iMVisual Media - Web Design Agency Based on New York"
+    />
+    <meta name="description" content="This is a Web Design Agency website" />
 
-  <!-- 
+    <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-  <!-- 
+    <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/require.css">
-  <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/require.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
 
-  <!-- 
+    <!-- 
     - preload images
   -->
-  <link rel="preload" href="./assets/images/hero-banner.png">
+    <link rel="preload" href="./assets/images/hero-banner.png" />
+  </head>
 
-</head>
-
-<body>
-
-  <!-- 
+  <body>
+    <!-- 
     - #PRELOADER
   -->
 
-  <div class="preloader" data-preloader>
-    <div class="preloader-circle"></div>
-  </div>
+    <div class="preloader" data-preloader>
+      <div class="preloader-circle"></div>
+    </div>
 
-
-
-
-
-  <!-- 
+    <!-- 
     - #HEADER
   -->
 
-  <header class="header" data-header>
-    <div class="container">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <h1>iMVisual Media</h1>
+        </a>
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="151" height="28" alt="Annie home">
-      </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="label-lg navbar-link has-after active">Home</a>
+            </li>
 
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="./service.html" class="label-lg navbar-link has-after"
+                >Services</a
+              >
+            </li>
 
-          <li class="navbar-item">
-            <a href="#" class="label-lg navbar-link has-after active">Home</a>
-          </li>
+            <li class="navbar-item">
+              <a href="./portfolio.html" class="label-lg navbar-link has-after"
+                >Portfolio</a
+              >
+            </li>
 
-          <li class="navbar-item">
-            <a href="./service.html" class="label-lg navbar-link has-after">Services</a>
-          </li>
+            <li class="navbar-item">
+              <a href="./contact.html" class="label-lg navbar-link has-after"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <a href="./portfolio.html" class="label-lg navbar-link has-after">Portfolio</a>
-          </li>
+        <a href="./contact.html" class="btn btn-primary">Request a quote</a>
 
-          <li class="navbar-item">
-            <a href="./contact.html" class="label-lg navbar-link has-after">Contact</a>
-          </li>
+        <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
 
-        </ul>
-      </nav>
-
-      <a href="./contact.html" class="btn btn-primary">Contact Now</a>
-
-      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
+    <main>
+      <article>
+        <!-- 
         - #HERO
       -->
 
-      <section class="section hero" aria-label="home">
-        <div class="container">
+        <section class="section hero" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">👋, My name is Sylva</p>
 
-          <div class="hero-content">
+              <h1 class="headline-lg">I'm a Web Developer</h1>
 
-            <p class="hero-subtitle">👋, My name is Annie</p>
+              <p class="hero-text body-md">Based in Los Angeles, California.</p>
 
-            <h1 class="headline-lg">I'm a Developer</h1>
+              <a href="./contact.html" class="btn btn-primary">Let's Start</a>
+            </div>
 
-            <p class="hero-text body-md">
-              Based in Los Angeles, California.
-            </p>
-
-            <a href="#" class="btn btn-primary">Let's Start</a>
-
+            <figure class="hero-banner">
+              <img
+                src="./assets/images/hero-banner.png"
+                width="680"
+                height="645"
+                alt="Sylva, the blonde, dressed in a green hoodie with a smile on her face"
+                class="w-100"
+              />
+            </figure>
           </div>
+        </section>
 
-          <figure class="hero-banner">
-            <img src="./assets/images/hero-banner.png" width="680" height="645"
-              alt="Annie, the blonde, dressed in a green hoodie with a smile on her face" class="w-100">
-          </figure>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #CLIENT
       -->
 
-      <section class="client" aria-label="Trusted client">
-        <div class="container">
+        <section class="client" aria-label="Trusted client">
+          <div class="container">
+            <ul class="slider">
+              <li class="slider-item">
+                <img
+                  src="./assets/images/client-1.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
 
-          <ul class="slider">
+              <li class="slider-item">
+                <img
+                  src="./assets/images/client-2.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
 
-            <li class="slider-item">
-              <img src="./assets/images/client-1.svg" width="130" height="40" alt="clients" class="w-100">
-            </li>
+              <li class="slider-item">
+                <img
+                  src="./assets/images/client-3.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
 
-            <li class="slider-item">
-              <img src="./assets/images/client-2.svg" width="130" height="40" alt="clients" class="w-100">
-            </li>
+              <li class="slider-item">
+                <img
+                  src="./assets/images/client-4.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
 
-            <li class="slider-item">
-              <img src="./assets/images/client-3.svg" width="130" height="40" alt="clients" class="w-100">
-            </li>
+              <li class="slider-item">
+                <img
+                  src="./assets/images/client-5.svg"
+                  width="130"
+                  height="40"
+                  alt="clients"
+                  class="w-100"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
 
-            <li class="slider-item">
-              <img src="./assets/images/client-4.svg" width="130" height="40" alt="clients" class="w-100">
-            </li>
-
-            <li class="slider-item">
-              <img src="./assets/images/client-5.svg" width="130" height="40" alt="clients" class="w-100">
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #ABOUT
       -->
 
-      <section class="section about" aria-label="about me">
-        <div class="container">
+        <section class="section about" aria-label="about me">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="./assets/images/about-banner.png"
+                width="580"
+                height="554"
+                loading="lazy"
+                alt="Sylva, the blonde, dressed in a black tops with a smile on her face"
+                class="w-100"
+              />
+            </figure>
 
-          <figure class="about-banner">
-            <img src="./assets/images/about-banner.png" width="580" height="554" loading="lazy"
-              alt="Annie, the blonde, dressed in a black tops with a smile on her face" class="w-100">
-          </figure>
+            <div class="about-content">
+              <h2 class="title-lg">
+                I'm a Freelancer Web Developer with over 5 years of experience.
+              </h2>
 
-          <div class="about-content">
+              <p class="body-md section-text">
+                I am the founder and CEO of iMVisual Media, a Web Development
+                agency with a high priority on providing value to our clients
+                and employers by understanding their product needs and
+                converting them into a working solution.
+              </p>
 
-            <h2 class="title-lg">I'm a Freelancer Front-end Developer with over 3 years of experience.</h2>
+              <p class="body-md section-text">
+                I am passionate in creating websites and maintaining it. I have
+                worked on various applications such as transport logistic
+                solutions, ecommerce and fin-tech etc.
+              </p>
 
-            <p class="body-md section-text">
-              I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and
-              create web elements for amazing people around the world. I like work with new people. New people new
-              Experiences.
-            </p>
+              <ul class="about-list">
+                <li>
+                  <p class="list-text">
+                    <strong class="strong title-md">285+</strong> Projet
+                    Completed
+                  </p>
+                </li>
 
-            <ul class="about-list">
+                <li>
+                  <p class="list-text">
+                    <strong class="strong title-md">190+</strong> Happy Clients
+                  </p>
+                </li>
+              </ul>
 
-              <li>
-                <p class="list-text">
-                  <strong class="strong title-md">285+</strong> Projet Completed
-                </p>
-              </li>
+              <div class="wrapper">
+                <a href="./contact.html" class="btn btn-primary">Contact Me</a>
 
-              <li>
-                <p class="list-text">
-                  <strong class="strong title-md">190+</strong> Happy Clients
-                </p>
-              </li>
-
-            </ul>
-
-            <div class="wrapper">
-              <a href="./contact.html" class="btn btn-primary">Contact Me</a>
-
-              <a href="./portfolio.html" class="btn btn-secondary">Portfolio</a>
+                <a href="./portfolio.html" class="btn btn-secondary"
+                  >Portfolio</a
+                >
+              </div>
             </div>
-
           </div>
+        </section>
 
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #SKILL
       -->
 
-      <section class="section skill" aria-labelledby="skill-label">
-        <div class="container">
+        <section class="section skill" aria-labelledby="skill-label">
+          <div class="container">
+            <div class="skill-content">
+              <h2 class="section-title headline-md" id="skill-label">
+                My Skills
+              </h2>
 
-          <div class="skill-content">
+              <ul class="skill-list">
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(177, 39%, 72%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="logo-html5"></ion-icon>
+                    </div>
 
-            <h2 class="section-title headline-md" id="skill-label">My Skills</h2>
-
-            <ul class="skill-list">
-
-              <li>
-                <div class="card card-sm" style="background-color: hsl(177, 39%, 72%)">
-
-                  <div class="card-media">
-                    <ion-icon name="logo-html5"></ion-icon>
+                    <h2 class="card-title">HTML</h2>
                   </div>
+                </li>
 
-                  <h2 class="card-title">HTML</h2>
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(41, 99%, 64%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="logo-css3"></ion-icon>
+                    </div>
 
-                </div>
-              </li>
-
-              <li>
-                <div class="card card-sm" style="background-color: hsl(41, 99%, 64%)">
-
-                  <div class="card-media">
-                    <ion-icon name="logo-css3"></ion-icon>
+                    <h2 class="card-title">CSS</h2>
                   </div>
+                </li>
 
-                  <h2 class="card-title">CSS</h2>
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(19, 97%, 85%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="logo-react"></ion-icon>
+                    </div>
 
-                </div>
-              </li>
-
-              <li>
-                <div class="card card-sm" style="background-color: hsl(19, 97%, 85%)">
-
-                  <div class="card-media">
-                    <ion-icon name="logo-react"></ion-icon>
+                    <h2 class="card-title">React JS</h2>
                   </div>
+                </li>
 
-                  <h2 class="card-title">React JS</h2>
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(221, 100%, 79%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="logo-angular"></ion-icon>
+                    </div>
 
-                </div>
-              </li>
-
-              <li>
-                <div class="card card-sm" style="background-color: hsl(221, 100%, 79%)">
-
-                  <div class="card-media">
-                    <ion-icon name="logo-angular"></ion-icon>
+                    <h2 class="card-title">Angular</h2>
                   </div>
+                </li>
 
-                  <h2 class="card-title">Angular</h2>
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(76, 39%, 72%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="logo-apple"></ion-icon>
+                    </div>
 
-                </div>
-              </li>
-
-              <li>
-                <div class="card card-sm" style="background-color: hsl(76, 39%, 72%)">
-
-                  <div class="card-media">
-                    <ion-icon name="logo-apple"></ion-icon>
+                    <h2 class="card-title">Nodejs</h2>
                   </div>
+                </li>
 
-                  <h2 class="card-title">iOs App</h2>
+                <li>
+                  <div
+                    class="card card-sm"
+                    style="background-color: hsl(245, 100%, 90%)"
+                  >
+                    <div class="card-media">
+                      <ion-icon name="logo-android"></ion-icon>
+                    </div>
 
-                </div>
-              </li>
-
-              <li>
-                <div class="card card-sm" style="background-color: hsl(245, 100%, 90%)">
-
-                  <div class="card-media">
-                    <ion-icon name="logo-android"></ion-icon>
+                    <h2 class="card-title">Mongodb</h2>
                   </div>
+                </li>
+              </ul>
+            </div>
 
-                  <h2 class="card-title">App Dev</h2>
-
-                </div>
-              </li>
-
-            </ul>
-
+            <figure class="skill-banner">
+              <img
+                src="./assets/images/skill-banner.png"
+                width="581"
+                height="657"
+                loading="lazy"
+                alt="Sylva, the blonde, dressed in a green hoodie with a smile on her face"
+                class="w-100"
+              />
+            </figure>
           </div>
+        </section>
 
-          <figure class="skill-banner">
-            <img src="./assets/images/skill-banner.png" width="581" height="657" loading="lazy"
-              alt="Annie, the blonde, dressed in a green hoodie with a smile on her face" class="w-100">
-          </figure>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
+        <!-- 
         - #CTA
       -->
 
-      <section class="cta">
-        <div class="container">
-          <h2 class="title-lg">Intrested working with me?</h2>
+        <section class="cta">
+          <div class="container">
+            <h2 class="title-lg">Intrested working with me?</h2>
 
-          <a href="./contact.html" class="btn btn-tertiary">Contact Now</a>
-        </div>
-      </section>
+            <a href="./contact.html" class="btn btn-tertiary">Contact Now</a>
+          </div>
+        </section>
 
-
-
-
-
-      <!-- 
+        <!-- 
         - #TESTIMONIALS
       -->
 
-      <section class="section testi" aria-labelledby="testi-label">
-        <div class="container">
+        <section class="section testi" aria-labelledby="testi-label">
+          <div class="container">
+            <h2 class="headline-md section-title text-center" id="testi-label">
+              Testimonial
+            </h2>
 
-          <h2 class="headline-md section-title text-center" id="testi-label">Testimonial</h2>
+            <ul class="slider">
+              <li class="slider-item card-container">
+                <div class="card card-lg">
+                  <figure class="card-media">
+                    <img
+                      src="./assets/images/testi-1.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Jennifer Lutheran"
+                      class="img-cover"
+                    />
+                  </figure>
 
-          <ul class="slider">
+                  <div class="card-content">
+                    <blockquote class="body-sm">
+                      Sylva was so patient with me as I knew nothing about what
+                      it took to pull a website together. She answered all of my
+                      questions and checked in when I was not responsive. I
+                      added an additional review and was happy with the final
+                      product! Highly recommend!
+                    </blockquote>
 
-            <li class="slider-item card-container">
-              <div class="card card-lg">
+                    <p class="client-name">Jennifer Lutheran</p>
 
-                <figure class="card-media">
-                  <img src="./assets/images/testi-1.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                    class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <blockquote class="body-sm">
-                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s.
-                  </blockquote>
-
-                  <p class="client-name">Jennifer Lutheran</p>
-
-                  <p class="client-title">CEO at pxdraft</p>
-
+                    <p class="client-title">CEO at pxdraft</p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="slider-item card-container">
+                <div class="card card-lg">
+                  <figure class="card-media">
+                    <img
+                      src="./assets/images/testi-2.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Olga Dannus"
+                      class="img-cover"
+                    />
+                  </figure>
 
-            <li class="slider-item card-container">
-              <div class="card card-lg">
+                  <div class="card-content">
+                    <blockquote class="body-sm">
+                      Sylva took not long to remove malware from our site and
+                      restore it completly without loosing any data. She was
+                      very communicative and responded when I had questions. I
+                      am really thankful to have found him, since two other
+                      developers were scared of this task. THANK YOU!
+                    </blockquote>
 
-                <figure class="card-media">
-                  <img src="./assets/images/testi-2.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                    class="img-cover">
-                </figure>
+                    <p class="client-name">Olga Dannus</p>
 
-                <div class="card-content">
-
-                  <blockquote class="body-sm">
-                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s.
-                  </blockquote>
-
-                  <p class="client-name">Jennifer Lutheran</p>
-
-                  <p class="client-title">CEO at pxdraft</p>
-
+                    <p class="client-title">Manager at Vaig</p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="slider-item card-container">
+                <div class="card card-lg">
+                  <figure class="card-media">
+                    <img
+                      src="./assets/images/testi-3.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Peter Obi"
+                      class="img-cover"
+                    />
+                  </figure>
 
-            <li class="slider-item card-container">
-              <div class="card card-lg">
+                  <div class="card-content">
+                    <blockquote class="body-sm">
+                      Aside from the timezone differences in terms of communication, he exceeded expectations and did a fantastic job. I couldn't recommend him enough and will more than likely use his services for future websites.
+                    </blockquote>
 
-                <figure class="card-media">
-                  <img src="./assets/images/testi-3.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                    class="img-cover">
-                </figure>
+                    <p class="client-name">Peter Obi</p>
 
-                <div class="card-content">
-
-                  <blockquote class="body-sm">
-                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s.
-                  </blockquote>
-
-                  <p class="client-name">Jennifer Lutheran</p>
-
-                  <p class="client-title">CEO at pxdraft</p>
-
+                    <p class="client-title">Business Owner</p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="slider-item card-container">
+                <div class="card card-lg">
+                  <figure class="card-media">
+                    <img
+                      src="./assets/images/testi-4.jpg"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="niecey Jones"
+                      class="img-cover"
+                    />
+                  </figure>
 
-            <li class="slider-item card-container">
-              <div class="card card-lg">
+                  <div class="card-content">
+                    <blockquote class="body-sm">
+                      The developer was really effective! He addressed all of my questions, and changes to my website. Working with him was a great experience, and I'm looking forward to more projects together.
+                    </blockquote>
 
-                <figure class="card-media">
-                  <img src="./assets/images/testi-4.jpg" width="100" height="100" loading="lazy" alt="Jennifer Lutheran"
-                    class="img-cover">
-                </figure>
+                    <p class="client-name">niecey Jones</p>
 
-                <div class="card-content">
-
-                  <blockquote class="body-sm">
-                    Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s.
-                  </blockquote>
-
-                  <p class="client-name">Jennifer Lutheran</p>
-
-                  <p class="client-title">CEO at pxdraft</p>
-
+                    <p class="client-title">Content Creator</p>
+                  </div>
                 </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
 
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer">
-    <div class="container">
+    <footer class="footer">
+      <div class="container">
+        <ul class="social-list">
+          <li>
+            <a
+              href="https://facebook.com/imvisualMedia"
+              target="_blank"
+              class="social-link"
+            >
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
 
-      <ul class="social-list">
+          <li>
+            <a
+              href="https://twitter.com/ImvisualMedia"
+              target="_blank"
+              class="social-link"
+            >
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-        </li>
+          <li>
+            <a
+              href="https://www.instagram.com/imvisualmedia"
+              target="blank
+          "
+              class="social-link"
+            >
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
-        </li>
+          <li>
+            <a
+              href="https://ng.linkedin.com/in/sylvaline-okeke"
+              target="blank"
+              class="social-link"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
+        <p class="text-center">
+          &copy; 2023 iMVisual Media copyright all right reserved
+        </p>
+      </div>
+    </footer>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-pinterest"></ion-icon>
-          </a>
-        </li>
-
-      </ul>
-
-      <p class="text-center">&copy; 2022 copyright all right reserved</p>
-
-    </div>
-  </footer>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!-- 
+    <!-- 
     - ionicon
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>

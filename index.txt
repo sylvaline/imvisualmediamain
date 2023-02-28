@@ -1,18 +1,18 @@
-Annie - Web Developer Based on Los Angeles
+Sylva - Web Developer Based on Los Angeles
 
-This is a personal portfolio html template made by codewithsadee
+This is a personal portfolio for Sylva
 
-Annie | Services
+Sylva | Services
 
-Annie | Portfolio
+Sylva | Portfolio
 
-Annie | Contact
+Sylva | Contact
 
 
 
 #---------- HEADER ----------#
 
-alt = Annie home
+alt = Sylva home
 
 Home
 Services
@@ -28,15 +28,15 @@ aria-label = menu
 
 #---------- HERO ----------#
 
-👋, My name is Annie
+👋, My name is Sylva
 
-I'm a Developer
+I'm a Software Developer
 
 Based in Los Angeles, California.
 
 Let's Start
 
-alt = Annie, the blonde, dressed in a green hoodie with a smile on her face
+alt = Sylva, the blonde, dressed in a green hoodie with a smile on her face
 
 
 
@@ -48,11 +48,11 @@ alt = clients
 
 #---------- ABOUT ----------#
 
-alt = Annie, the blonde, dressed in a black tops with a smile on her face
+alt = Sylva, the blonde, dressed in a black tops with a smile on her face
 
-I'm a Freelancer Front-end Developer with over 3 years of experience.
+I'm a Freelancer software developer with over 5 years of experience.
 
-I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.
+I am a software developer with a high priority on providing value to my clients and employers by understanding their product needs and converting them into a working solution. I have worked on various applications such as transport logistic solutions, ecommerce and fin-tech etc.
 
 285+
 Projet Completed
@@ -100,7 +100,7 @@ bg-color = hsl(245, 100%, 90%)
 <ion-icon name="logo-android"></ion-icon>
 App Dev
 
-alt = Annie, the blonde, dressed in a green hoodie with a smile on her face
+alt = Sylva, the blonde, dressed in a green hoodie with a smile on her face
 
 
 
